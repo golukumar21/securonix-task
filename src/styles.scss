@@ -27,6 +27,17 @@
     margin: 0;
   }
 
+  .p-fileupload-content {
+    height: 300px;
+    overflow: auto;
+    .p-button-icon-only {
+      display: none;
+    }
+  }
+  .p-fileupload-buttonbar {
+    text-align: center;
+  }
+
     /* Responsive Styles */
     @media screen and (max-width: 767px) {
 

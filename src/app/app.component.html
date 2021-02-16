@@ -4,4 +4,10 @@
       <img src="../assets/securonix-logo.png" alt="Securonix">
     </div>
   </header>
+  <section class="main">
+    <div class="file_upload">
+      <!-- <p-fileUpload name="myfile[]" multiple="multiple" (onUpload)="uploader($event)"></p-fileUpload> -->
+      <input type="file" accept=".csv" multiple (change)="uploader($event)" />
+    </div>
+  </section>
 </div>
